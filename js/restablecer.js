@@ -1,5 +1,5 @@
 $(document ).ready(function() {
-
+	
 /* Validador de Formulario de recuperar contrase&ntilde;a */	
 $('#rec-clave-submit').click(function(){ 
 		$("#restablecer-password").data('formValidation').validate();
@@ -36,13 +36,13 @@ $('#recover-password').formValidation({
 		var fv = form.data('formValidation');
 		var method = "&method=recover";
 		$.ajax({
-			url: form.attr('action'), // la URL para la petici√≥n
-           data: form.serialize() + method, // la informaci√≥n a enviar
-            type: 'POST', // especifica si ser√° una petici√≥n POST o GET
-            dataType: 'json', // el tipo de informaci√≥n que se espera de respuesta            
+			url: form.attr('action'), // la URL para la peticiÛn
+           data: form.serialize() + method, // la informaciÛn a enviar
+            type: 'POST', // especifica si ser· una peticiÛn POST o GET
+            dataType: 'json', // el tipo de informaciÛn que se espera de respuesta            
             success: function (data) {            	
-            	// c√≥digo a ejecutar si la petici√≥n es satisfactoria;
-            	// c√≥digo a ejecutar si la petici√≥n es satisfactoria;
+            	// cÛdigo a ejecutar si la peticiÛn es satisfactoria;
+            	// cÛdigo a ejecutar si la peticiÛn es satisfactoria;
             	// console.log(data);
 	            if (data.result === 'error'){
 	            	for (var field in data.fields) {
@@ -72,7 +72,7 @@ $('#recover-password').formValidation({
 										
 						});
                 } 
-          	},// c√≥digo a ejecutar si la petici√≥n falla;
+          	},// cÛdigo a ejecutar si la peticiÛn falla;
             error: function (xhr, status) {
             	SweetError(status);
             }
@@ -112,13 +112,13 @@ $('#recover-password').formValidation({
 		var fv = form.data('formValidation');
 		var method = "&method=restablecer";
 		$.ajax({
-			url: form.attr('action'), // la URL para la petici√≥n
-           data: form.serialize() + method + senduser, // la informaci√≥n a enviar
-            type: 'POST', // especifica si ser√° una petici√≥n POST o GET
-            dataType: 'json', // el tipo de informaci√≥n que se espera de respuesta            
+			url: form.attr('action'), // la URL para la peticiÛn
+           data: form.serialize() + method + senduser, // la informaciÛn a enviar
+            type: 'POST', // especifica si ser· una peticiÛn POST o GET
+            dataType: 'json', // el tipo de informaciÛn que se espera de respuesta            
             success: function (data) {            	
-            	// c√≥digo a ejecutar si la petici√≥n es satisfactoria;
-            	// c√≥digo a ejecutar si la petici√≥n es satisfactoria;
+            	// cÛdigo a ejecutar si la peticiÛn es satisfactoria;
+            	// cÛdigo a ejecutar si la peticiÛn es satisfactoria;
             	// console.log(data);
 	            if (data.result === 'error'){
 	            	for (var field in data.fields) {
@@ -144,7 +144,7 @@ $('#recover-password').formValidation({
 										
 						});
                 } 
-          	},// c√≥digo a ejecutar si la petici√≥n falla;
+          	},// cÛdigo a ejecutar si la peticiÛn falla;
             error: function (xhr, status) {
             	SweetError(status);
             }

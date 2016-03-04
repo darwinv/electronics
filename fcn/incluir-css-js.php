@@ -1,6 +1,7 @@
+<?php include_once"config/parameter.php";?>
 <head>
-<title>Electronics</title>
-<link rel="shortcut icon" href="favicon.ico"> 
+<title><?php echo COMPANY; ?></title>
+<link rel="shortcut icon" href="favicon.ico">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +29,8 @@
 <script type="text/javascript" src="js/framework/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/language/es_ES.js"></script>
 <script type="text/javascript" src="js/sweetalert.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+
+<!--<script type="text/javascript" src="js/script.js"></script>-->
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/preguntas.js"></script>
 <script type="text/javascript" src="js/framework/bootstrap-multiselect.js"></script>

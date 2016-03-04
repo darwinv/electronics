@@ -52,9 +52,9 @@ if(isset($_SESSION["id"])){
 				</div>
 				<br>
 				<div class="center-block text-center" style="width: 80%">
-					Electronics Company, C.A. RIF: J-402930810 T&aacute;chira - Venezuela <br>
-					Telefonos: (0276) 348.92.17 / (0414) 735.02.12  Email:
-					atencionalcliente@electronicseshop.com
+					<?php echo COMPANY .", C.A. RIF: ".RIF." Dirección: ".DIRECCION ?>  <br>
+					Telefonos: <?php echo CONTAC_TEFL1 ;?> / <?php echo CONTAC_TEFL2 ;?>  &nbsp; Email:
+				<?php echo " ".EMAIL ;?>
 				</div>
 			</div>
 		</form>

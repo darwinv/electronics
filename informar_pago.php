@@ -16,8 +16,7 @@ include "clases/publicaciones.php";
 			<?php include "paginas/pago/p_informar_pago.php"; ?>	
 		</div>
 	</div>
-<?php include "temas/footer.php";
-include "modales/m_registrar.php";?>
+<?php include "temas/footer.php";?>
 <div class="modal-backdrop fade in cargador" style="display:none"></div>
 </body>
 </html>

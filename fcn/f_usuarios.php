@@ -1,4 +1,5 @@
 <?php
+include_once '../config/parameter.php';
 include_once '../clases/fotos.php';
 include_once '../clases/usuarios.php';
 include_once '../clases/bd.php';
@@ -420,7 +421,7 @@ function newUser() {
 }
 	function sendEmail(){
 		ini_set("sendmail_from",$_POST["email"]);
-		$email_to = "atencionalcliente@electronicseshop.com";
+		$email_to = EMAIL;
 
 		$email_subject = $_POST ['nombre']." te ha contactado!";
 		$email_message = $_POST ['mensaje']."\n\n";		

@@ -104,7 +104,7 @@ $foto=new fotos();
       <div class="text-left mar20  pad20 borde-right-ultimas">
         <div class="t24" style="">Nuestros   Productos</div>
         <div class="text-left t16 grisC  mar-ultimas-publicaciones">Echale un vistaso a nuestras ultimas publicaciones,
-        	vistete a la moda con la tecnologia del momento.
+        	Encuentra los productos que son tendencia en el mercado.
         </div>
         <br> 
         <br>

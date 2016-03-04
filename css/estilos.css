@@ -1,81 +1,4 @@
-
-
 @CHARSET "UTF-8";
-
-@font-face {
-	/*R Definir fuentes del sitio*/
-	font-family: "FontAwesome";
-	src: url("../fonts/fontawesome-webfont.ttf") format("truetype");
-}
-
-@font-face {
-	/*R Definir fuentes del sitio*/
-	font-family: "vogues";
-	src: url("../fonts/vogues.TTF") format("truetype");
-}
-@font-face {
-	/*R Definir fuentes del sitio*/
-	font-family: "vogues2";
-	src: url("../fonts/vogues2.TTF") format("truetype");
-}
-@font-face {
-	/*R Definir fuentes del sitio*/
-	font-family: "vogues3";
-	src: url("../fonts/vogues3.OTF") format("truetype");
-}
-@font-face {
-	/*R Definir fuentes del sitio*/
-	font-family: "vogues4";
-	src: url("../fonts/vogues4.TTF") format("truetype");
-}
-@font-face {
-	/*R Definir fuentes del sitio*/
-	font-family: "vogues5";
-	src: url("../fonts/vogues5.TTF") format("truetype");
-}
-@font-face {
-	/*R Definir fuentes del sitio*/
-	font-family: "vogues6";
-	src: url("../fonts/vogues6.TTF") format("truetype");
-}
-@font-face {
-	/*R Definir fuentes del sitio*/
-	font-family: "vogues7";
-	src: url("../fonts/vogues7.TTF") format("truetype");
-}
-@font-face {
-	/*R Definir fuentes del sitio*/
-	font-family: "handy";
-	src: url("../fonts/comesinhandy.TTF") format("truetype");
-}
-
-@font-face {
-	/*R Definir fuentes del sitio*/
-	font-family: "sharpie";
-	src: url("../fonts/HollySharpie.ttf") format("truetype");
-}
-
-@font-face {
-	/*R Definir fuentes del sitio*/
-	font-family: "magic";
-	src: url("../fonts/Magic Pies.otf") format("truetype");
-}
-
-
-/* fieldset y checkbox*/
-
-
-
-/* fieldset y checkbox----------------------------------------------------------------------------------------*/
-
-
-body {
-	margin: 0; 
-	font-size: 12px;
-	margin-top: 100px;
-	margin-bottom:100px;
-	font-family: "vogues7";
-}
 
 header {
 	position: fixed;
@@ -85,25 +8,6 @@ header {
 	z-index: 999;
 	margin:0 auto;
 }
-footer
-{
-
-background: #f1f9fd;
-color:#999;
-display:block;
-margin:0;
-width: 100%;
-position: fixed;
-bottom: 0px;
-left:0px;
-z-index: 999;
-
-border-top:  dotted #d8d8d8 1px;
--webkit-box-shadow: 0px -1px 26px -1px rgba(0,0,0,0.2);
--moz-box-shadow: 0px -1px 26px -1px rgba(0,0,0,0.2);
-box-shadow: 0px -1px 26px -1px rgba(0,0,0,0.2);
-}
-
 
 .text-dec-none:hover,  .text-dec-none:active, .text-dec-none, .text-dec-none:visited, .text-dec-none:before, .text-dec-none:focus, .text-dec-none:after
 {
@@ -1077,14 +981,6 @@ select::-webkit-scrollbar-thumb {
 	margin-left: 50px;
 }
 
-
-
-div.vertical-line {
-	width: 2px; /* Line width */
-	background-color: #6A55BC; /* Line color */
-	height: 100%; /* Override in-line if you want specific height. */
-	float: left;
-}
 /* ************* Fin del header ************* */
 
 /* ************* login  ************* */
@@ -1116,59 +1012,6 @@ div.vertical-line {
 
 /* Categorias*/
 
-.categorias > div 
-{
-	margin-bottom: 2px ;
-}
-.categorias > div > a> div 
-{
-	background: -moz-radial-gradient(center, ellipse cover, rgba(71, 33, 221,1) 0%, rgba(50, 43, 83,1) 100%);
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(50, 43, 83,1)), color-stop(100%, rgba(30,142,198,1)));
-background: -webkit-radial-gradient(center, ellipse cover, rgba(71, 33, 221,1) 0%, rgba(50, 43, 83,1) 100%);
-background: -o-radial-gradient(center, ellipse cover, rgba(71, 33, 221,1) 0%, rgba(50, 43, 83,1) 100%);
-background: -ms-radial-gradient(center, ellipse cover, rgba(71, 33, 221,1) 0%, rgba(50, 43, 83,1) 100%);
-background: radial-gradient(ellipse at center, rgba(71, 33, 221,1) 0%, rgba(50, 43, 83,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#219edd', endColorstr='#1e8ec6', GradientType=1 );
-	color: #FFF;
-	border: 1px solid #ccc;
-	
-	padding-top: 10px;
-	padding-bottom: 7px;
-	text-align: center;
-	font-size: 16px;
-	margin-left: -5px;
-	-webkit-box-shadow: 1px 0px 24px -4px rgba(0, 0, 0, 0.50);
-	-moz-box-shadow: 1px 0px 24px -4px rgba(0, 0, 0, 0.50);
-	box-shadow: 1px 0px 24px -4px rgba(0, 0, 0, 0.50);
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	
-}
-
-.categorias > div > a > div >img
-{
-	margin-left: 10px;
-}
-
-.categorias > div > a >div:hover
-{
-	text-decoration: none;
-	opacity:0.7;
-	background-color:transparent;
-	border-left: 25px solid #1D0484;
-}
-
-.categorias > div > a:hover
-{
-	text-decoration: none;
-}
-
-.categorias > div > a:focus
-{
-	text-decoration: none;
-
-}
 .categorias2 > div 
 {
 	margin-bottom: 2px ;

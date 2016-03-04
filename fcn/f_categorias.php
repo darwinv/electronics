@@ -59,7 +59,7 @@ $foto=new fotos();
       		<a href="listado.php?id_cla=1574"><div><span class="marL5 ">Hogar y muebles </span></div></a>
     	</div>-->
     	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">      
-      		<a href="listado.php?id_cla=1430"><div><span class="marL5 ">Prendas y calzados</span></div></a>      
+      		<a href="listado.php?id_cla=1430"><div><span class="marL5 ">Prendas y calzadoss</span></div></a>      
     	</div>
     	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">      
       		<a href="listado.php?id_cla=3937"><div><span class="marL5 ">Relojes y joyas </span></div></a>

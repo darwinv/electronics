@@ -17,9 +17,9 @@
 					<br>
 					Titular
 					<br>
-					Titular: Vogue's Company, C.A.
+					<?php echo COMPANY_NAME; ?>
 					<br>
-					RIF: J-402930810
+					RIF: <?php echo RIF; ?>
 					<br>
 					iPhrasesOnline@gmail.com
 					<br>
@@ -35,7 +35,7 @@
 					<br>
 					Titular
 					<br>
-					Vogue's Company, C.A.
+					<?php echo COMPANY_NAME; ?>, C.A.
 					<br>
 					RIF: J-402930810 
 					<br>
