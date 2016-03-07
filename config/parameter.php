@@ -3,7 +3,7 @@
 	$domain_root='http://'.$_SERVER ['SERVER_NAME'].'/';
 	
 	if($_SERVER ['SERVER_NAME']=='localhost'){ 
-		$datos_params = file_get_contents($domain_root.'electronics3/config/parameter.json');
+		$datos_params = file_get_contents($domain_root.'electronics/config/parameter.json');
 	}
 	else {
 		$datos_params = file_get_contents($domain_root.'config/parameter.json');
